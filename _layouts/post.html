@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="detail_main">
+    <span>Base : {{ page.base }}</span><br>
+    <span>Build Date : {{ page.date }} </span><br>
+    <span>Download : <a href="{{ page.download }}" class="fa fa-download"> SourceForge </a></span><br>
+    <span>Mirror : <a href="{{ page.mirror }}" class="fa fa-download"> Mirror </a></span><br>
+    <span>Maintainer : <a href="{{ page.maintainer }}" class="fa fa-address-card">  Telegram </a></span><br>
+</div>
+
+<h1>Changelogs :</h1>
+{{ content }}
+<h1>Screenshot</h1>
+<img src="/thumbnails/Screenshot/{{ page.thumbnail }}">

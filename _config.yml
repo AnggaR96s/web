@@ -1,0 +1,25 @@
+title: Angga R. | Project
+description: An Android Custom ROM and Kernel
+
+
+collections:
+  Systems:
+    output: true
+    permalink: /System/:title.aspx
+
+defaults:
+  - scope:
+      path: ""
+      type: "Systems"
+    values:
+      layout: "post"
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
